@@ -1,0 +1,6 @@
+*.PO
+*.Po
+depends
+*.o
+*.Plo
+*.dirstamp

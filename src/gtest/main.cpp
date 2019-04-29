@@ -4,7 +4,7 @@
 #include "pubkey.h"
 #include "vds/JoinSplit.hpp"
 #include "util.h"
-#include <bitcoincore/src/vdsbitcoind.h>
+//#include <bitcoincore/src/vdsbitcoind.h>
 
 #include <libsnark/common/default_types/r1cs_ppzksnark_pp.hpp>
 #include <libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/r1cs_ppzksnark.hpp>
@@ -57,5 +57,5 @@ int main(int argc, char** argv)
  **/
 void guseless()
 {
-    BitcoinCore::StartShutdown();
+    //BitcoinCore::StartShutdown();
 }
